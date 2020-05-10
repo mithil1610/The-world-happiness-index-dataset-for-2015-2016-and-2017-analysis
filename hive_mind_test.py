@@ -130,30 +130,5 @@ print('The country whose happiness is decreased by the most amount is', d)
 
 # Task Complete -- END
 
-# **UCF101** - Action Recognition Data Set
-
-Below command will consume 7 GB internet approximately.
-"""
-
-!wget https://www.crcv.ucf.edu/data/UCF101/UCF101.rar
-
-!unrar x "/content/UCF101.rar.1" "/content/UCF101_rar/"
-
-"""<pre>Bring the training dataset in this format: 
-(Labels can be downloaded
-from <a href='https://www.crcv.ucf.edu/data/UCF101/UCF101TrainTestSplits-RecognitionTask.zip'>here</a>)
-DATA_DIRECTORY (root folder)
-|
-|
-|-- Label Name (label folder)
-|       |
-|       |--video1.mp4
-|       |--video2.mp4
-.    .
-.    .
-</pre>
-
-# Data Directory (root folder) path: - **/content/UCF101_rar/UCF-101**
-
 # ***Thank you***
 """
